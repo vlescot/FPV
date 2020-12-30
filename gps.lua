@@ -96,7 +96,7 @@ local function run(event)
     end
 
     -- date de la radio
-    local D = getDateTime();    
+    local D = getDateTime()
     local date = D.year.."-"..D.mon.."-"..D.day.." "..D.hour.."h"..D.min.."m"..D.sec.."s"
 
     -- ecriture du fichier    
